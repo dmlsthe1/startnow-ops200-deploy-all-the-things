@@ -21,7 +21,7 @@ const checkValidHerokuUrl = (url) => {
 };
 
 describe('Heroku Workshop', () => {
-  this.timeout(6500);
+  //this.timeout(6500);
   describe('config file', () => {
     projects.forEach((project) => {
       it(`includes a key called "${project}" with a valid Heroku URL for a value`, () => {
@@ -33,7 +33,7 @@ describe('Heroku Workshop', () => {
 
   describe('heroku apps', () => {
     projects.forEach((project) => {
-      this.timeout(15000);
+      //this.timeout(15000);
       it(`${project} is deployed`, (done) => {
         chai
           .request(config[project])
