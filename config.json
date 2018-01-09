@@ -1,7 +1,7 @@
 {
-  "first_app": "",
-  "change_calculator": "",
-  "mortgage_calculator": "",
-  "top_spots": "",
-  "vstda": ""
+  "first_app": "https://cryptic-caverns-38373.herokuapp.com/",
+  "change_calculator": "https://dl-change-calculator.herokuapp.com/",
+  "mortgage_calculator": "https://dl-mortgage-calculator.herokuapp.com/",
+  "top_spots": "https://dl-san-diego-top-spots.herokuapp.com/",
+  "vstda": "https://dl-vstda.herokuapp.com/"
 }
